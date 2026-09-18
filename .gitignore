@@ -1,9 +1,10 @@
-.vagrant
-/cookbooks
-
-# Bundler
-bin/*
-.bundle/*
-
-.kitchen/
-.kitchen.local.yml
+data/raw/
+data/sessions/
+data/reports/
+data/state/
+logs/
+work/
+*.log
+*.pid
+config/config.json
+.agent/HANDOFF.md

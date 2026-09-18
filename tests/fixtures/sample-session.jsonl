@@ -1,0 +1,6 @@
+{"timestamp":"2026-09-12T10:00:00Z","ordinal":0,"type":"session_meta","payload":{"session_id":"11111111-1111-1111-1111-111111111111","cwd":"C:\\repo","cli_version":"test"}}
+{"timestamp":"2026-09-12T10:00:01Z","ordinal":1,"type":"event_msg","payload":{"type":"token_count","info":{"input_tokens":1000,"cached_input_tokens":100,"output_tokens":50,"total_tokens":1050}}}
+{"timestamp":"2026-09-12T10:00:02Z","ordinal":2,"type":"response_item","payload":{"type":"function_call","name":"functions.exec_command","arguments":"{\"cmd\":\"git diff -- token=abc\"}","call_id":"call-1"}}
+{"timestamp":"2026-09-12T10:00:03Z","ordinal":3,"type":"response_item","payload":{"type":"function_call_output","call_id":"call-1","output":"hello truncated"}}
+{"timestamp":"2026-09-12T10:00:04Z","ordinal":4,"type":"response_item","payload":{"type":"message","role":"user","content":[{"type":"input_text","text":"secret prompt not stored"}]}}
+{"timestamp":"2026-09-12T10:00:05Z","ordinal":5,"type":"event_msg","payload":{"type":"token_count","info":{"input_tokens":500,"cached_input_tokens":50,"output_tokens":60,"total_tokens":560}}}

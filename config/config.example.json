@@ -1,0 +1,13 @@
+{
+  "codexHome": "%USERPROFILE%\\.codex",
+  "dataRoot": "data",
+  "pollIntervalSeconds": 5,
+  "maxSessionFileAgeDays": 14,
+  "maxSessionFiles": 20,
+  "initialReadBytes": 1048576,
+  "largeToolOutputChars": 20000,
+  "veryLargeToolOutputChars": 100000,
+  "duplicateHandoffWindowSeconds": 30,
+  "privacyMode": "default",
+  "storeCommandArguments": false
+}
